@@ -1,7 +1,6 @@
 import { Given, When, Then } from "@cucumber/cucumber";
 import { expect } from "chai";
 import { Action, IUser } from "../../src";
-// import { Action, IUser } from './path-to-your-action-file'; // Update the path to your Action file
 
 const action: Action = new Action();
 let calculator: number[] = [];
